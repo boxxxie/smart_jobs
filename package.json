@@ -1,0 +1,15 @@
+{
+  "name": "smart_jobs",
+  "description": "interface over messagehub, which is an interface over rabbitMQ for doing simple job processing.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "dependencies": {
+    "messagehub":"0.0.2"
+    ,"underscore":"1.x"
+    ,"underscore_extended":"*"
+  }
+}
