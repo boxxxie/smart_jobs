@@ -1,7 +1,7 @@
 {
   "name": "smart_jobs",
   "description": "interface over messagehub, which is an interface over rabbitMQ for doing simple job processing.",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "repository": {
     "type": "git",
     "url": "git://github.com/boxxxie/smart_jobs.git"
@@ -10,5 +10,6 @@
   "dependencies": {
     "underscore":"1.x"
     ,"underscore_extended":"*"
-  }
+  },
+  "main":"smart_jobs.js"
 }
