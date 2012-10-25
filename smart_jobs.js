@@ -2,7 +2,7 @@ var _ = require('underscore');
 require('underscore_extended');
 //var hub = require('messagehub');
 
-function smart_job(hub,name){
+exports = function smart_job(hub,name){
   const job_name = name;
   const finished_job_name = 'finished '+ job_name;
   console.log('setting up job poster for:', job_name);
@@ -44,5 +44,3 @@ function smart_job(hub,name){
     }
   } 
 }
-
-module.exports = smart_job;

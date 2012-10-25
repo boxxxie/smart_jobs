@@ -4,12 +4,11 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git://github.com/boxxxie/smart_jobs.git"
   },
-  "bugs": "",
+  "bugs": "https://github.com/boxxxie/smart_jobs/issues",
   "dependencies": {
-    "messagehub":"0.0.2"
-    ,"underscore":"1.x"
+    "underscore":"1.x"
     ,"underscore_extended":"*"
   }
 }
